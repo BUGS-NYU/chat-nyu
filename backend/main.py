@@ -10,8 +10,7 @@ from langchain.prompts import PromptTemplate
 
 def train_rag_model(documents_file):
     # Set up OpenAI API key if using GPT-4
-    # NOTE: This is Abby's OpenAI key
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = "your_api_key"
 
     # Load the Paper
     with open(documents_file, "r", encoding="utf-8") as f:
