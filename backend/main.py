@@ -1,4 +1,5 @@
 import os
+import csv
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -10,11 +11,20 @@ from langchain.prompts import PromptTemplate
 
 def train_rag_model(documents_file):
     # Set up OpenAI API key if using GPT-4
-    os.environ["OPENAI_API_KEY"] = "your_api_key"
+    os.environ["OPENAI_API_KEY"] = "your_openai_key"
 
-    # Load the Paper
-    with open(documents_file, "r", encoding="utf-8") as f:
-        paper_text = f.read()
+    # Load the document: handle CSV files differently by reading and combining the content column
+    if documents_file.endswith(".csv"):
+        combined_text = ""
+        with open(documents_file, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                # Adjust the key if your CSV uses a different header name
+                combined_text += row.get("Content", "") + "\n"
+        paper_text = combined_text
+    else:
+        with open(documents_file, "r", encoding="utf-8") as f:
+            paper_text = f.read()
 
     # Chunking the Document
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
@@ -46,7 +56,7 @@ def ask_query(rag_chain, query):
     return response["answer"]
 
 if __name__ == "__main__":
-    rag_chain = train_rag_model("backend/test_article.txt")
+    rag_chain = train_rag_model("backend/nyu_data.csv")
 
     # Example Query:
     # answer = ask_query(rag_chain, "how to contact the open source office?")
