@@ -1,0 +1,638 @@
+[
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/advanced-mathematical-methods-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/africana-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/africana-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/american-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/american-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/ancient-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/animal-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/anthropology-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/anthropology-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/anthropology-classical-civilization-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/anthropology-linguistics-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/archaeology-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/art-history-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/art-history-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/asian-film-media-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/asian-pacific-american-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/asian-pacific-american-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/astronomy-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/biochemistry-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/biology-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/biology-chemical-biomolecular-engineering-bs-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/broadcast-multimedia-journalism-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/business-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/chemistry-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/chemistry-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/chemistry-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/chemistry-chemical-biomolecular-engineering-bs-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/child-adolescent-mental-health-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/chinese-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/cinema-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/cinema-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/classical-civilization-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/classical-civilization-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/classical-civilization-hellenic-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/classics-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/classics-art-history-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/comparative-literature-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/comparative-literature-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/computer-data-science-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/computer-science-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/computer-science-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/computer-science-engineering-bs-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/computer-science-electrical-engineering-bs-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/creative-writing-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/creative-writing-spanish-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/data-science-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/data-science-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/data-science-mathematics-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/dramatic-literature-theatre-history-cinema-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/dramatic-literature-theatre-history-cinema-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/east-asian-civilization-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/east-asian-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/economics-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/economics-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/economics-computer-science-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/economics-mathematics-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/english-american-literature-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/english-american-literature-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/environmental-biology-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/environmental-humanities-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/environmental-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/environmental-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/european-mediterranean-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/european-mediterranean-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/francophone-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/french-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/french-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/french-linguistics-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/french-studies-english-translation-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/gender-sexuality-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/gender-sexuality-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/genetics-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/genomics-bioinformatics-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/german-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/german-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/german-linguistics-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/global-public-health-anthropology-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/global-public-health-history-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/global-public-health-science-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/global-public-health-sociology-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/hebrew-judaic-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/hebrew-judaic-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/hellenic-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/hellenic-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/history-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/history-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/international-relations-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/irish-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/italian-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/italian-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/italian-linguistics-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/japanese-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/journalism-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/korean-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/language-mind-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/latin-american-caribbean-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/latin-american-caribbean-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/latin-ancient-greek-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/latino-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/latino-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/law-society-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/linguistics-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/linguistics-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/literature-translation-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/luso-brazilian-language-literature-portuguese-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/mathematics-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/mathematics-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/mathematics-computer-science-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/mathematics-computer-science-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/mathematics-civil-engineering-bs-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/mathematics-computer-engineering-bs-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/mathematics-electrical-engineering-bs-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/mathematics-mechanical-engineering-bs-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/medical-humanities-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/medieval-renaissance-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/medieval-renaissance-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/metropolitan-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/metropolitan-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/middle-eastern-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/middle-eastern-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/molecular-cell-biology-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/music-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/music-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/native-american-indigenous-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/neural-science-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/philosophy-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/philosophy-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/physics-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/physics-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/physics-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/physics-civil-engineering-bs-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/physics-computer-engineering-bs-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/physics-electrical-engineering-bs-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/physics-mechanical-engineering-bs-bs/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/politics-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/politics-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/print-online-journalism-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/psychology-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/psychology-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/public-policy-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/public-policy-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/religious-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/religious-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/romance-languages-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/russian-slavic-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/russian-slavic-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/science-society-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/self-designed-major-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/social-cultural-analysis-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/social-cultural-analysis-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/sociology-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/sociology-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/south-asian-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/spanish-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/spanish-linguistics-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/spanish-portuguese-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/urban-design-architecture-studies-ba/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/urban-design-architecture-studies-minor/",
+    "selector": "#contentarea"
+  },
+  {
+    "url": "https://bulletins.nyu.edu/undergraduate/arts-science/programs/web-programming-applications-minor/",
+    "selector": "#contentarea"
+  }
+]
