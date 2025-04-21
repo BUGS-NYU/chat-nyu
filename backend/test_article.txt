@@ -1,0 +1,27 @@
+The Open Source Initiative (OSI) is a California public benefit corporation, with 501(c)3 tax-exempt status, founded in 1998.
+
+We are also actively involved in Open Source community-building, education, and public advocacy to promote awareness and the importance of non-proprietary software. OSI participates in Open Source conferences and events, to meet with open source developers and users, and to discuss with executives from the public and private sectors about how Open Source technologies, licenses, and models of development can provide economic and strategic advantages.
+
+Vision
+As the leading voice on the policies and principles of open source, the OSI helps build a world where the freedoms and opportunities of open source software can be enjoyed by all. The OSI supports institutions and individuals working together to create communities of practice in which the healthy open source ecosystem thrives.
+
+Mission
+The Open Source Initiative (OSI) is a non-profit corporation with global scope formed to educate about and advocate for the benefits of open source and to build bridges among different constituencies in the open source community.
+
+Open source enables a development method for software that harnesses the power of distributed peer review and transparency of process. The promise of open source is higher quality, better reliability, greater flexibility, lower cost, and an end to predatory vendor lock-in.
+
+One of our most important activities is as a standards body, maintaining the Open Source Definition for the good of the community. The Open Source Initiative Approved License trademark and program creates a nexus of trust around which developers, users, corporations and governments can organize open source cooperation.
+
+Contact
+Please contact the OSI if you are interested in having us help you develop, arrange, or conduct educational conferences, programs, courses of instruction, and/or online educational seminars relating to Open Source (non-proprietary) software.
+
+Our website has a contact form that can be used to reach us over the internet, or we can be contacted at our mailing address:
+
+Open Source Initiative
+8605 Santa Monica Blvd PMB 63639
+West Hollywood, CA  90069-4109
+United States
+
+The Open Source Initiative’s IRS Tax ID Number (TIN) is 91-2037395.
+
+The Open Source Initiative’s EU Transparency Register Number 672028337929-77
