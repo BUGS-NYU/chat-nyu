@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+langchain
+langchain_huggingface
+langchain_community
+langchain_openai
+faiss-cpu
+sentence-transformers
+openai
+python-dotenv
