@@ -13,7 +13,7 @@ function App() {
     ]);
 
     // TEST
-    setTimeout(() => {
+    setInterval(() => {
       setOutputs((prevOutputs) => [
         ...prevOutputs,
         "This is a new message.",
