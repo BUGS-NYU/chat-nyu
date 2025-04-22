@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../public/Inter-Light.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #151414;
+    color: white;
+}
