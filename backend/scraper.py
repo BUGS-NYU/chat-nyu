@@ -1,20 +1,89 @@
+import re
 import requests
+import unicodedata
+import markdownify
 from bs4 import BeautifulSoup
+from urllib.parse import urljoin
+
+
+def convert_relative_to_absolute(html, base_url):
+    """
+    Convert all relative links in the given HTML content to absolute URLs.
+
+    Args:
+        html (str): The HTML content containing <a> tags with relative or absolute links.
+        base_url (str): The base URL to resolve relative links against.
+
+    Returns:
+        str: The modified HTML content with all <a> tags converted to absolute URls.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+
+    # Iterate through all <a> tags with an href attribute
+    for a_tag in soup.find_all("a", href=True):
+        # Replace href with an absolute URL
+        a_tag["href"] = urljoin(base_url, a_tag["href"])
+
+    return str(soup)
+
+
+def remove_inline_js(html):
+    """
+    Remove inline JavaScript code blocks and CDATA sections from HTML content.
+
+    Args:
+        html (str): The HTML content as a string.
+
+    Returns:
+        str: The HTML content with inline JavaScript and CDATA blocks removed.
+    """
+    # Remove //<![CDATA[ ... //]]> blocks
+    html = re.sub(r"//<!\[CDATA\[(.*?)//\]\]>", "", html, flags=re.DOTALL)
+    # Remove suspicious JS blocks
+    html = re.sub(r"var\s+\w+\s*=\s*.*?;", "", html, flags=re.DOTALL)
+    return html
+
+
+def clean_markdown(text):
+    """
+    Clean and normalize Markdown text for LLM/RAG ingestion.
+
+    Args:
+        text (str): The Markdown-formatted text to clean.
+
+    Returns:
+        str: The cleaned and normalized Markdown text.
+    """
+    # Normalize Unicode
+    text = unicodedata.normalize("NFKC", text)
+    # Replace non-breaking spaces with regular spaces
+    text = text.replace("\u00a0", " ")
+    # Remove zero-width and other invisible chars
+    text = re.sub(r"[\u200B-\u200D\uFEFF]", "", text)
+    # Replace curly quotes with straight quotes
+    text = text.replace("\u2018", "'").replace("\u2019", "'")
+    # Collapse multiple spaces
+    text = re.sub(r"[ \t]+", " ", text)
+    # Collapse 3+ line breaks to 2
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    # Remove leading/trailing whitespace on each line
+    text = "\n".join(line.strip() for line in text.splitlines())
+    # Remove leading/trailing whitespace for the whole text
+    text = text.strip()
+    return text
 
 
 def fetch_content(url, selector, user_agent=None):
     """
-    Fetches and extracts the text content of a specific element from a web page.
-
-    This function makes an HTTP request to the specified URL, parses the HTML content, and extracts text from the element matching the provided CSS selector. It handles proper formatting of the extracted text by preserving paragraph breaks and removing extra whitespace.
+    Fetches content from a web page and extracts the target element as Markdown.
 
     Args:
-        url (str): The URL of the web page to fetch content from.
-        selector (str): The CSS selector for the target element on the page.
-        user_agent (str, optional): Custom User-Agent string.
+        url (str): The URL of the web page to fetch.
+        selector (str): The CSS selector that identifies the target element to extract.
+        user_agent (str, optional): Custom User-Agent string for the HTTP request.
 
     Returns:
-        str: The extracted text content with newlines between elements and whitespace trimmed.
+        str: The Markdown-formatted content of the selected element.
 
     Raises:
         requests.HTTPError: If the HTTP request fails.
@@ -46,5 +115,20 @@ def fetch_content(url, selector, user_agent=None):
     if not element:
         raise ValueError(f"Selector '{selector}' not found on {url}")
 
-    # Returns the extracted text content.
-    return element.get_text(separator="\n", strip=True)
+    # Convert all links to absolute
+    html = convert_relative_to_absolute(str(element), url)
+
+    # Remove inline JS/CDATA blocks
+    html = remove_inline_js(html)
+
+    # Convert to Markdown, ignoring common non-content elements
+    markdown = markdownify.markdownify(
+        html,
+        heading_style="ATX",
+        strip=["script", "style", "nav", "footer", "form", "button"],
+    )
+
+    # Clean and normalize markdown
+    markdown = clean_markdown(markdown)
+
+    return {"markdown": markdown}

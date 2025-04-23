@@ -4,7 +4,9 @@ langchain
 langchain_huggingface
 langchain_community
 langchain_openai
+langchain_google_genai
 faiss-cpu
 sentence-transformers
 openai
 python-dotenv
+markdownify

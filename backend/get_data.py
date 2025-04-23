@@ -14,8 +14,6 @@ def is_allowed_by_robots(url):
     """
     Checks if scraping the given URL is allowed by the site's robots.txt.
 
-    This function parses the website's robot.txt file to determine if the web scraper is permiited to access the specified URL based on the site's crawling policies.
-
     Args:
         url (str): The URL to check against robots.txt rules.
 
@@ -39,31 +37,31 @@ def is_allowed_by_robots(url):
 
 def hash_content(text):
     """
-    Computes a SHA-256 hash of the given text.
+    Generates a SHA-256 hash for the given text content.
 
-    Used to generate a unique indetifier for content to detect changes and avoid unnecessary re-scraping of identical content.
+    Used to generate a unique indetifier for content to detect changes and avoid redundant scraping.
 
     Args:
         text (str): The text content to hash.
 
     Returns:
-        str: the hexadecimal hash string.
+        str: A hexadecimal SHA-256 hash of the input text.
     """
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
 def load_scraped_urls():
     """
-    Loads previously scraped URLs and their content hashes from the data file.
+    Loads URLs and their associated content hashes from the data file.
 
-    This prevents duplicate scraping and allows for change detection when the same URL is scraped multiple times.
+    Used to track previously scraped pages and detect changes between runs.
 
     Returns:
-        dict: Mapping of URL strings to content hash strings.
+        dict: A dictionary mapping URLs (str) to their content hash (str).
     """
     scraped = {}
 
-    # Load the file if it exists
+    # Read from file if it exists
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, "r", encoding="utf-8") as f:
             for line in f:
@@ -81,16 +79,16 @@ def main():
     """
     Main scraping workflow.
 
-    Process:
-    1. Loads the list of URLs and CSS selectors to scrape from links.json
-    2. Checks which URLs have already been scraped to avoid duplicates
-    3. Verifies each URL against the site's robots.txt rules
-    4. Scrapes valid URLs and extracts content using the specified selectors
-    5. Saves results to the data file in JSON Lines format
-    6. Logs any errors to errors.log
+    Steps:
+    1. Loads the list of URLs and their CSS selectors to scrape from links.json.
+    2. Checks which URLs have already been scraped to avoid duplicates.
+    3. Verifies each URL against their robots.txt rules.
+    4. Scrapes valid URLs and extracts content using the specified selectors.
+    5. Saves the result in JSON Lines format.
+    6. Logs errors and blocked URLs.
     7. Implements a delay between requests to avoid overloading servers.
     """
-    # Load the list of sites to scrape from the links file
+    # Load the list of URLs and their selectors to scrape
     with open(LINKS_FILE, "r", encoding="utf-8") as f:
         sites = json.load(f)
 
@@ -113,7 +111,6 @@ def main():
             # Check robots.txt before scraping
             if not is_allowed_by_robots(url):
                 print(f"Blocked by robots.txt: {url}")
-                # Log blocked attempts
                 errlog.write(
                     f"{time.strftime('%Y-%m-%dT%H:%M:%SZ')} | {url} | Blocked by robots.txt\n"
                 )
@@ -121,28 +118,29 @@ def main():
 
             print(f"Scraping: {url}")
             try:
-                # Fetch and extract the content using the provided CSS selector
-                content = fetch_content(url, selector)
+                # Extract content using the provided CSS selector
+                result = fetch_content(url, selector)
+                markdown = result["markdown"]
 
-                # Hash the content for change detection in future runs
-                content_hash = hash_content(content)
+                # Generate content hash for change detection
+                content_hash = hash_content(markdown)
 
                 # Create a data entry
                 entry = {
                     "url": url,
                     "scraped_at": time.strftime("%Y-%m-%dT%H:%M:%SZ"),
                     "content_hash": content_hash,
-                    "content": content,
+                    "content": markdown,
                 }
 
-                # Write the result as a JSON line to the output file
+                # Write the result to the output file
                 out.write(json.dumps(entry, ensure_ascii=False) + "\n")
                 out.flush()
 
                 # Sleep between requests
                 time.sleep(1)
             except Exception as e:
-                # Log any errors to the error log file
+                # Log any errors
                 print(f"Error scraping {url}: {e}")
                 errlog.write(f"{time.strftime('%Y-%m-%dT%H:%M:%SZ')} | {url} | {e}\n")
 
