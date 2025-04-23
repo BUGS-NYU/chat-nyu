@@ -42,3 +42,49 @@
 .output::-webkit-scrollbar-thumb:hover {
   background-color: #bdbdbd;
 }
+
+/* chat box */
+
+.chat-input-container {
+  width: 80%;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e1e1e;
+  border-radius: 15px;
+  padding: 0.5rem 0.75rem;
+}
+
+.chat-input {
+  flex-grow: 1;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.chat-input::placeholder {
+  color: #aaa;
+}
+
+.chat-input:focus {
+  outline: none;
+}
+
+.send-button {
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.send-button:hover {
+  background-color: #ddd;
+}
