@@ -14,11 +14,6 @@ function App() {
       "This is a test message.",
       "How are you doing today?",
     ]);
-
-    // TEST
-    setInterval(() => {
-      setOutputs((prevOutputs) => [...prevOutputs, "This is a new message."]);
-    }, 2000);
   }, []);
 
   useEffect(() => {
