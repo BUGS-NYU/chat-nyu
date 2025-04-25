@@ -1,0 +1,16 @@
+# Misc
+.DS_Store
+._.DS_Store
+Thumbs.db
+
+# Env files
+.env
+
+# Log files
+errors.log
+
+# Data
+data.jsonl
+
+# Virtual Env
+.venv/
