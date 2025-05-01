@@ -11,6 +11,12 @@ from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.prompts import PromptTemplate
 
+# Clears console
+def clear_console() -> None:
+    """Clear the terminal screen on macOS/Linux/Windows."""
+    command = "cls" if os.name == "nt" else "clear"
+    os.system(command)
+
 # Disable tokenizer parallelism warnings
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
@@ -167,5 +173,9 @@ if __name__ == "__main__":
         # Allow the user to exit the loop
         if query.strip().lower() == "exit":
             break
+        # Clear console 
+        if query == "cls":
+            clear_console()
+            continue
         answer = ask_query(rag_chain, query)
         print(answer)
